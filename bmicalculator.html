@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <style>
+        body{
+            background-image: url("https://www.shutterstock.com/image-illustration/body-mass-index-bmi-5-260nw-1848503788.jpg");
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-color: antiquewhite;
+        }
+        form{
+            width: 20%;
+            text-align: center;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            margin-top: 7%;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: rgb(223, 222, 220);
+            line-height: 2.4rem;
+        }
+        h1{
+            font-family: cursive;
+            font-size: 3rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <form action="/bmi" method="post">
+        <input type="text" name="weight" placeholder="Enter Your Weight in Kg"><br>
+        <input type="text" name="height" placeholder="Enter Your Height in m"><br>
+        <input type="submit" name="submit" value="Calculate">
+    </form>
+</body>
+</html>
